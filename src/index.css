@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import '<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">';
+
+*{
+  box-sizing: border-box;
+  font-family:  'Roboto', 'sans-serif';
+
+}
+html {
+  font-size: 20px;
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  margin: 0;
+  color: rgb(255, 255, 255);
 }
+
+
+#root{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 969px 700px 900px 250px;
+  grid-template-areas: "introduction introduction"
+                       "technologies technologies"
+                       "about about"
+                       "foot foot"
+}
+
+.title{
+  margin: 60px;
+}
+
+
+
+

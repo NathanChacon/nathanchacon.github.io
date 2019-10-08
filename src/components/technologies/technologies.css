@@ -1,0 +1,258 @@
+.technologies{
+    grid-area: technologies;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ffff;  
+    font-size: 1.5rem;
+    color: black;
+}
+
+.wrapTec{
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.wrapTec li{
+    padding: 13px;
+}
+
+.containerBar{
+    display: block;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 8px;
+}
+
+.htmlLevel{
+    display: block;
+    background-color: rgb(47, 47, 255);
+    box-shadow:
+        0 0 10px 2px #fff,  /* inner white */
+        0 0  10px 2px rgb(47, 47, 255), /* middle magenta */
+        0 0  10px 2px #0ff;
+    height: 100%;
+    width: 90%;
+    animation: level 1s forwards linear;
+}
+
+.cssLevel{
+    display: block;
+    background-color: rgb(47, 47, 255);
+    box-shadow:
+        0 0 10px 2px #fff,  /* inner white */
+        0 0  10px 2px rgb(47, 47, 255), /* middle magenta */
+        0 0  10px 2px #0ff;
+    height: 100%;
+    width: 90%;
+    animation: csslevel 1s forwards linear;
+}
+
+.jsLevel{
+    display: block;
+    background-color: rgb(47, 47, 255);
+    box-shadow:
+        0 0 10px 2px #fff,  /* inner white */
+        0 0  10px 2px rgb(47, 47, 255), /* middle magenta */
+        0 0  10px 2px #0ff;
+    height: 100%;
+    width: 80%;
+    animation: jslevel 1s forwards linear;
+}
+
+.nodeLevel{
+    display: block;
+    background-color: rgb(47, 47, 255);
+    box-shadow:
+        0 0 10px 2px #fff,  /* inner white */
+        0 0  10px 2px rgb(47, 47, 255), /* middle magenta */
+        0 0  10px 2px #0ff;
+    height: 100%;
+    width: 75%;
+    animation: nodelevel 1s forwards linear;
+}
+
+.bootstrapLevel{
+    display: block;
+    background-color: rgb(47, 47, 255);
+    box-shadow:
+        0 0 10px 2px #fff,  /* inner white */
+        0 0  10px 2px rgb(47, 47, 255), /* middle magenta */
+        0 0  10px 2px #0ff;
+    height: 100%;
+    width: 85%;
+    animation: btslevel 1s forwards linear;
+}
+
+.reactLevel{
+    display: block;
+    background-color: rgb(47, 47, 255);
+    box-shadow:
+        0 0 10px 2px #fff,  /* inner white */
+        0 0  10px 2px rgb(47, 47, 255), /* middle magenta */
+        0 0  10px 2px #0ff;
+    height: 100%;
+    width: 75%;
+    animation: rclevel 1s forwards linear;
+}
+
+.mysqlLevel{
+    display: block;
+    background-color: rgb(47, 47, 255);
+    box-shadow:
+        0 0 10px 2px #fff,  /* inner white */
+        0 0  10px 2px rgb(47, 47, 255), /* middle magenta */
+        0 0  10px 2px #0ff;
+    height: 100%;
+    width: 68%;
+    animation: mslevel 1s forwards linear;
+}
+@keyframes level{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 90%
+    }
+}
+
+@-webkit-keyframes level{
+    
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 90%
+    }
+
+}
+
+@keyframes csslevel{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 90%
+    }
+}
+
+@-webkit-keyframes csslevel{
+    
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 90%
+    }
+
+}
+
+@keyframes jslevel{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 80%
+    }
+}
+
+@-webkit-keyframes jslevel{
+    
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 80%
+    }
+
+}
+
+
+@keyframes nodelevel{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 75%
+    }
+}
+
+@-webkit-keyframes nodelevel{
+    
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 75%
+    }
+
+}
+
+
+@keyframes btslevel{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 85%
+    }
+}
+
+@-webkit-keyframes btslevel{
+    
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 85%
+    }
+
+}
+
+@keyframes mslevel{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 65%
+    }
+}
+
+@-webkit-keyframes mslevel{
+    
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 65%
+    }
+
+}
+
+@keyframes rclevel{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 75%
+    }
+}
+
+@-webkit-keyframes rclevel{
+    
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 75%
+    }
+
+}
+
+@media (max-width:600px){
+    .containerBar{
+        width: 300px;
+        height: 8px;
+    }
+}

@@ -1,0 +1,46 @@
+.foot{
+    grid-area: foot;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footIcons{
+    display: flex;
+    width:50%;
+    justify-content:center;
+    margin-top: 8px; 
+}
+
+.iconShape{
+    text-align: center;
+    margin-right: 15px;
+    background-color:rgb(47, 47, 255);
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+.fontIcon{
+    margin-top: 25%;
+}
+
+.iconShape a {
+    color: white;
+    text-decoration: none;
+}
+
+.contactFoot{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contactFoot ul{
+    list-style: none;
+    text-align: center;
+}
+
+.contactFoot ul li{
+        margin-right: 50px;
+}
