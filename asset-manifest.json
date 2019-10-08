@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/nathanchacon.github.io/static/css/main.1511e54c.chunk.css",
-    "main.js": "/nathanchacon.github.io/static/js/main.c657a009.chunk.js",
-    "main.js.map": "/nathanchacon.github.io/static/js/main.c657a009.chunk.js.map",
-    "runtime~main.js": "/nathanchacon.github.io/static/js/runtime~main.0e52532f.js",
-    "runtime~main.js.map": "/nathanchacon.github.io/static/js/runtime~main.0e52532f.js.map",
-    "static/css/2.22a7d4ef.chunk.css": "/nathanchacon.github.io/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.fe55e438.chunk.js": "/nathanchacon.github.io/static/js/2.fe55e438.chunk.js",
-    "static/js/2.fe55e438.chunk.js.map": "/nathanchacon.github.io/static/js/2.fe55e438.chunk.js.map",
-    "index.html": "/nathanchacon.github.io/index.html",
-    "precache-manifest.faf721b0514590c9b67ba687ecbbed61.js": "/nathanchacon.github.io/precache-manifest.faf721b0514590c9b67ba687ecbbed61.js",
-    "service-worker.js": "/nathanchacon.github.io/service-worker.js",
-    "static/css/2.22a7d4ef.chunk.css.map": "/nathanchacon.github.io/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.1511e54c.chunk.css.map": "/nathanchacon.github.io/static/css/main.1511e54c.chunk.css.map",
-    "static/media/books.jpg": "/nathanchacon.github.io/static/media/books.e9fe3745.jpg",
-    "static/media/perfilLink.jpg": "/nathanchacon.github.io/static/media/perfilLink.91287a5c.jpg",
-    "static/media/introduction.css": "/nathanchacon.github.io/static/media/planet.a7639264.jpg"
+    "main.css": "/static/css/main.ca6e21f4.chunk.css",
+    "main.js": "/static/js/main.33be4058.chunk.js",
+    "main.js.map": "/static/js/main.33be4058.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.1dc4db23.js",
+    "runtime~main.js.map": "/static/js/runtime~main.1dc4db23.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.fe55e438.chunk.js": "/static/js/2.fe55e438.chunk.js",
+    "static/js/2.fe55e438.chunk.js.map": "/static/js/2.fe55e438.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3731bcca5eb80d27ac9470ad51d7bbd5.js": "/precache-manifest.3731bcca5eb80d27ac9470ad51d7bbd5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.ca6e21f4.chunk.css.map": "/static/css/main.ca6e21f4.chunk.css.map",
+    "static/media/books.jpg": "/static/media/books.e9fe3745.jpg",
+    "static/media/perfilLink.jpg": "/static/media/perfilLink.91287a5c.jpg",
+    "static/media/introduction.css": "/static/media/planet.a7639264.jpg"
   }
 }
